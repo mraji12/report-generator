@@ -1,0 +1,149 @@
+Here’s a professional `README.md` file for your Streamlit Project Report Generator application.
+
+# 📘 Project Report Generator
+
+A simple AI-powered web application built using **Streamlit** and **Google Gemini AI** that generates structured project report summaries from uploaded `.docx` documents.
+
+---
+
+## 🚀 Features
+
+* Upload `.docx` project documents
+* Generate AI-based project report summaries
+* Structured report sections:
+
+  * Introduction
+  * Objectives
+  * Methodology
+  * Results
+  * Conclusion
+* Download generated report as `.docx`
+* Simple and interactive Streamlit UI
+* Navigation menu using `streamlit-option-menu`
+
+---
+
+## 🛠️ Technologies Used
+
+* Python
+* Streamlit
+* Google Gemini AI API
+* python-docx
+* streamlit-option-menu
+
+---
+
+## 📂 Project Structure
+
+```bash
+project-report-generator/
+│
+├── app.py
+├── requirements.txt
+├── README.md
+├── assets/
+│   └── figure_5_3.png
+```
+
+---
+
+## ⚙️ Installation
+
+### 1️⃣ Clone the Repository
+
+```bash
+git clone https://github.com/your-username/project-report-generator.git
+cd project-report-generator
+```
+
+### 2️⃣ Create Virtual Environment (Optional)
+
+```bash
+python -m venv venv
+```
+
+Activate the environment:
+
+#### Windows
+
+```bash
+venv\Scripts\activate
+```
+
+#### Linux / Mac
+
+```bash
+source venv/bin/activate
+```
+
+---
+
+## 📦 Install Required Packages
+
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+## ▶️ Run the Application
+
+```bash
+streamlit run app.py
+```
+
+---
+
+## 🔑 Configure Gemini API Key
+
+Replace the API key inside the code:
+
+```python
+client = genai.Client(api_key="YOUR_API_KEY")
+```
+
+⚠️ Never expose your API key publicly.
+
+---
+
+## 📄 How It Works
+
+1. User uploads a `.docx` project document.
+2. The document text is extracted.
+3. Gemini AI processes the content.
+4. AI generates a structured project report summary.
+5. User can download the generated report as a `.docx` file.
+
+---
+
+## 📸 Screenshot
+
+Add your project screenshot here.
+
+Example:
+
+```markdown
+![App Screenshot](assets/screenshot.png)
+```
+
+---
+
+## 🧠 Future Improvements
+
+* PDF upload support
+* Multiple report templates
+* Export as PDF
+* User authentication
+* Cloud deployment
+
+---
+
+## 👨‍💻 Author
+
+Naina Muhammad
+
+---
+
+## 📜 License
+
+This project is for educational purposes.
